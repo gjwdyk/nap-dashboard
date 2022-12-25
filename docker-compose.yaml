@@ -20,7 +20,7 @@ services:
       - TZ
   grafana:
     restart: always
-    image: grafana/grafana-oss:9.2.8
+    image: grafana/grafana-oss:9.3.2
     ports:
       - 3000:3000
     environment:
